@@ -1,0 +1,19 @@
+v 4
+file . "semaforo_tb.vhd" "4ec7d23e02af0dcec4b346123405545fab947274" "20261109202027.889":
+  entity semaforo_tb at 1( 0) + 0 on 21;
+  architecture sim of semaforo_tb at 8( 118) + 0 on 22;
+file . "control_sem.vhd" "ad7704cf15560a8ee27d3173867d9b28a86abe82" "20261109202027.731":
+  entity control_sem at 1( 0) + 0 on 17;
+  architecture arch4 of control_sem at 29( 660) + 0 on 18;
+file . "preescaler.vhd" "f4806d234c51d16e7200d611dcd1ab978c6d1bde" "20261109202027.619":
+  entity preescaler at 1( 0) + 0 on 13;
+  architecture arch2 of preescaler at 15( 286) + 0 on 14;
+file . "cruce_peaton.vhd" "545f0fd2df8cccf438855e2edd7809a6d51d2ecf" "20261109202027.551":
+  entity cruce_peaton at 1( 0) + 0 on 11;
+  architecture arch1 of cruce_peaton at 15( 280) + 0 on 12;
+file . "temporizador.vhd" "7facc488f376f4cab0ca177a57e3c791c10413f1" "20261109202027.674":
+  entity temporizador at 1( 0) + 0 on 15;
+  architecture arch3 of temporizador at 15( 369) + 0 on 16;
+file . "semaforo.vhd" "130d983f41e1c5f615351331ff261de1916acc0b" "20261109202027.808":
+  entity semaforo at 1( 0) + 0 on 19;
+  architecture arch5 of semaforo at 24( 589) + 0 on 20;
