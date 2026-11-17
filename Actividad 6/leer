@@ -1,1 +1,13 @@
+COMANDOS DISPONIBLES
 
+- Ejecutar simulación 
+
+  $ make
+
+
+LIMPIEZA DEL ENTORNO
+
+
+- Limpiar archivos temporales de compilación, ejecutables y vectores:
+
+  $ make clean
