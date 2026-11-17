@@ -1,1 +1,33 @@
+GUÍA DE COMANDOS DISPONIBLES - PROYECTO ALU 32 BITS (AUTOMATIZACIÓN CON MAKE
+
+
+- Ejecutar simulación con la cantidad por defecto de vectores (1000):
+
+  $ make
+
+
+
+- Ejecutar simulación especificando una cantidad personalizada de vectores (ej. 500):
+
+  $ make N=500
+
+
+
+
+
+VISUALIZACIÓN DE ONDAS Y CASOS CRÍTICOS
+
+- Compilar y abrir el banco de pruebas manual/crítico con GTKWave:
+
+  $ make prueba_casos_criticos
+
+
+
+LIMPIEZA DEL ENTORNO
+
+
+- Limpiar archivos temporales de compilación, ejecutables y vectores:
+
+  $ make clean
+
 
